@@ -14,7 +14,8 @@ const headingAccentStyles = {
   color: "#663399",
 }
 const paragraphStyles = {
-  marginBottom: 48,
+  marginBottom: 20,
+  width: 500,
 }
 const codeStyles = {
   color: "#8A6534",
@@ -126,7 +127,24 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <img src={'FOSS4GNA_HEADER.png'} alt="FOSS4G Header" width="500px"></img>
       <h1 style={headingStyles}>
+        FOSS4G NA 2023
+        <br />
+        <span style={headingAccentStyles}>Open Source<br />Geospatial Community!<br />🎉🎉🎉</span>
+      </h1>
+      <p style={paragraphStyles}>
+        The OSGeo US Local Branch is thrilled to anounce that the FOSS4G NA 2023 will be held
+        in Baltimore from October 23rd - 25th. This event is a chance for everyone to meetup in
+        person to learn, share, and network. More information will become available in the next
+        couple of weeks.
+      </p>
+      <p style={paragraphStyles}>
+        <a href="http://eepurl.com/dMmNb6">Please join our email list</a> and/or <a href="https://twitter.com/foss4gna">follow
+          our twitter account</a> to get updates on this event as they become available.
+      </p>
+
+      {/* <h1 style={headingStyles}>
         Congratulations
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
@@ -166,11 +184,11 @@ const IndexPage = () => {
       <img
         alt="Gatsby G Logo"
         src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
+      /> */}
     </main>
   )
 }
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>FOSS4G NA 2023</title>
