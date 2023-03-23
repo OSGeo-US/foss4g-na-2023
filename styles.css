@@ -1,0 +1,80 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+hr {
+	background: #ea2030;
+	border: 0;
+	height: 15px;
+	width: 85%;
+}
+html {
+	background: #fedf12;
+}
+section {
+	width: 100%;
+}
+#contact {
+	font-size: 18pt;
+}
+#description {
+	margin: auto;
+	background: #1c3667;
+	color: #fff;
+	min-height: 350px;
+	position: relative;
+	padding-bottom: 0;
+}
+#description h1 {
+	font-size: 40px;
+}
+#description h2 {
+	color: #fedf12;
+}
+#welcome {
+	background: #1c3667;
+	color: #fff;
+	min-height: 300px;
+	position: relative;
+}
+#welcome .container {
+	padding-top: 10px;
+}
+#hero {
+	padding: 30px 0px;
+}
+.container {
+	text-align: center;
+	width: 100%;
+}
+.container img {
+	width: 100%;
+}
+.content {
+	max-width: 400px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-header {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	max-width: 400px;
+}
+.bg-info-img {
+	height: 300px;
+	object-fit: cover;
+	opacity: 0.5;
+	width: 100%;
+}
+.bg-info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
