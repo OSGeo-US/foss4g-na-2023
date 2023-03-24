@@ -22,7 +22,6 @@ section {
 	margin: auto;
 	background: #1c3667;
 	color: #fff;
-	min-height: 350px;
 	position: relative;
 	padding-bottom: 0;
 }
@@ -93,5 +92,4 @@ section {
 	font-weight: 600;
 	font-size: 1.5rem;
 	color: #fff;
-	text-decoration: none;
 }
