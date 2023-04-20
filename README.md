@@ -1,6 +1,6 @@
 # FOSS4G NA 2023 Website
 
-````mermaid
+```mermaid
 classDiagram
     Home -- About
     Home -- Registration
@@ -8,8 +8,8 @@ classDiagram
     Home -- Program
     Home -- Sponsorship
     Home : - Welcome
+    Home : - Description
     Home : - RFP
-    Home : - Attendees
 
 
     Accomodations : - Hotel
@@ -35,5 +35,4 @@ classDiagram
     Presenter : - Title
 
     Registration : - Cost
-    ```
-````
+```
