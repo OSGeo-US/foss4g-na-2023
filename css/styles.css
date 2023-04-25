@@ -525,6 +525,10 @@ progress {
 	display: none !important;
 }
 
+.para {
+	font-size: 1.25rem;
+}
+
 .lead {
 	font-size: 1.25rem;
 	font-weight: 300;
@@ -11376,9 +11380,6 @@ html {
 }
 .masthead .masthead-subheading {
 	font-size: 1.25rem;
-}
-.masthead .masthead-avatar {
-	/* width: 20rem; */
 }
 
 @media (min-width: 992px) {
