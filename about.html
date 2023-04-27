@@ -51,7 +51,9 @@
 			id="mainNav"
 		>
 			<div class="container">
-				<a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+				<a class="navbar-brand" href="index.html"
+					>FOSS4G NA Baltimore</a
+				>
 				<button
 					class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
 					type="button"
@@ -66,26 +68,84 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ms-auto">
-						<li class="nav-item mx-0 mx-lg-1">
+						<li class="nav-item py-2 dropdown">
 							<a
-								class="nav-link py-3 px-0 px-lg-3 rounded"
-								href="#portfolio"
-								>Portfolio</a
+								href="#"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
 							>
+								Call for presentations
+							</a>
+							<div class="dropdown-menu dropdown-menu-start">
+								<a
+									href="cfp.html#description"
+									class="dropdown-item"
+								>
+									Description
+								</a>
+								<a
+									href="cfp.html#contribute"
+									class="dropdown-item"
+								>
+									What to contribute
+								</a>
+								<a
+									href="cfp.html#workshop"
+									class="dropdown-item"
+								>
+									Workshops
+								</a>
+								<a
+									href="cfp.html#presentations"
+									class="dropdown-item"
+								>
+									Presentations
+								</a>
+								<a
+									href="cfp.html#submission"
+									class="dropdown-item"
+								>
+									Submission Details
+								</a>
+								<a href="cfp.html#review" class="dropdown-item">
+									Review Process
+								</a>
+								<a
+									href="cfp.html#question"
+									class="dropdown-item"
+								>
+									Questions
+								</a>
+							</div>
 						</li>
-						<li class="nav-item mx-0 mx-lg-1">
+						<li class="nav-item py-2 dropdown">
 							<a
-								class="nav-link py-3 px-0 px-lg-3 rounded"
-								href="#about"
-								>About</a
+								href="#"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
 							>
-						</li>
-						<li class="nav-item mx-0 mx-lg-1">
-							<a
-								class="nav-link py-3 px-0 px-lg-3 rounded"
-								href="#contact"
-								>Contact</a
-							>
+								About
+							</a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a
+									href="about.html#schedule"
+									class="dropdown-item"
+								>
+									Schedule Overview
+								</a>
+								<a
+									href="about.html#accomodation"
+									class="dropdown-item"
+								>
+									Accomodations
+								</a>
+								<a
+									href="about.html#registration"
+									class="dropdown-item"
+								>
+									Registration
+								</a>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -94,145 +154,146 @@
 		<!-- Masthead-->
 		<header class="masthead bg-primary text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
-				<h1>Registration and Accomodations</h1>
+				<!-- Masthead Avatar Image-->
+				<div class="row">
+					<img
+						class="col-lg-6"
+						src="assets/img/FOSS4GNA_LOGO.svg"
+						alt="FOSS4G NA Baltimore Logo"
+					/>
+					<div class="col-lg-6 p-4 bg-secondary">
+						<!-- About Page Heading-->
+						<h2 class="text-center text-uppercase text-white">
+							About
+						</h2>
+					</div>
+				</div>
 			</div>
 		</header>
 		<!-- Schedule Overview -->
-		<section class="page-section" id="schedule-overview">
+		<section class="page-section" id="schedule">
 			<div class="container">
 				<!-- Schedule Section Heading-->
-				<h2 class="page-section-heading text-center text-uppercase">
+				<h2
+					class="page-section-heading text-center text-uppercase text-secondary"
+				>
 					Schedule Overview
 				</h2>
 				<!-- Icon Divider-->
 				<div class="divider-custom divider-light">
-					<div class="divider-custom-line-blue"></div>
+					<div class="divider-custom-line-secondary"></div>
 				</div>
-				<table border="2" cellspacing="0" align="center">
-					<tr>
-						<td align="center" height="50" width="200"></td>
-						<td align="center" height="50" width="200">
+				<table class="mx-auto">
+					<tr class="text-center" height="50">
+						<td width="200"></td>
+						<td width="200">
 							<b>Monday<br />10/23</b>
 						</td>
-						<td align="center" height="50" width="200">
+						<td width="200">
 							<b>Tuesday<br />10/24</b>
 						</td>
-						<td align="center" height="50" width="200">
+						<td width="200">
 							<b>Wednesday<br />10/25</b>
 						</td>
 					</tr>
-					<tr>
-						<td align="center" height="50">
+					<tr class="text-center" height="50">
+						<td class="text-center">
 							<b>Morning</b>
 						</td>
-						<td align="center" height="50" bgcolor="#a6cee3">
-							<strong>Workshops</strong>
+						<td bgcolor="#a6cee3">
+							<b>Workshops</b>
 						</td>
-						<td align="center" height="50" bgcolor="#fb9a99">
-							Welcome
+						<td bgcolor="#fb9a99">
+							<b>Welcome</b>
 						</td>
-						<td align="center" height="50" bgcolor="#cab2d6">
-							Keynote
-						</td>
-						<!-- <td rowspan="6" align="center" height="50">
-							<h2>L<br />U<br />N<br />C<br />H</h2>
-						</td> -->
-					</tr>
-					<tr>
-						<td align="center" height="50"></td>
-						<td align="center" height="50" bgcolor="#a6cee3"></td>
-						<td align="center" height="50" bgcolor="#fdbf6f">
-							Sessions
-						</td>
-						<td align="center" height="50" bgcolor="#fdbf6f">
-							Sessions
-						</td>
-						<!-- <td rowspan="6" align="center" height="50">
-							<h2>L<br />U<br />N<br />C<br />H</h2>
-						</td> -->
-					</tr>
-					<tr style="border-top: solid black 1px">
-						<td align="center" height="50">
-							<b>Afternoon</b>
-						</td>
-						<td align="center" height="50" bgcolor="#a6cee3"></td>
-						<td align="center" height="50" bgcolor="#fdbf6f"></td>
-						<td align="center" height="50" bgcolor="#fdbf6f"></td>
-					</tr>
-					<tr>
-						<td align="center" height="50"></td>
-						<td align="center" height="50" bgcolor="#1f78b4">
-							<strong>FedGeoDay</strong>
-						</td>
-						<td align="center" height="50" bgcolor="#cab2d6">
-							Keynote
-						</td>
-						<td align="center" height="50" bgcolor="#cab2d6">
-							Keynote
+						<td bgcolor="#cab2d6">
+							<b>Keynote</b>
 						</td>
 					</tr>
-					<tr>
-						<td align="center" height="50"></td>
-						<td align="center" height="50" bgcolor="#b2df8a">
-							<strong>B2B</strong>
-						</td>
-						<td align="center" height="50"></td>
-						<td align="center" height="50"></td>
+					<tr class="text-center border-bottom" height="50">
+						<td></td>
+						<td bgcolor="#a6cee3"></td>
+						<td bgcolor="#fdbf6f"><b>Sessions</b></td>
+						<td bgcolor="#fdbf6f"><b>Sessions</b></td>
 					</tr>
-					<tr style="border-top: solid black 1px">
-						<td align="center" height="50">
-							<b>Evening</b>
-						</td>
-						<td align="center" height="50" bgcolor="#33a02c">
-							<strong>Ice Breaker</strong>
-						</td>
-						<td align="center" height="50" bgcolor="darkorange">
-							Gala
-						</td>
-						<td align="center" height="50"></td>
+					<tr class="text-center" height="50">
+						<td><b>Afternoon</b></td>
+						<td bgcolor="#a6cee3"></td>
+						<td bgcolor="#fdbf6f"></td>
+						<td bgcolor="#fdbf6f"></td>
+					</tr>
+					<tr class="text-center" height="50">
+						<td></td>
+						<td bgcolor="#1f78b4"><b>FedGeoDay</b></td>
+						<td bgcolor="#cab2d6"><b> Keynote</b></td>
+						<td bgcolor="#cab2d6"><b> Keynote</b></td>
+					</tr>
+					<tr class="text-center border-bottom" height="50">
+						<td></td>
+						<td bgcolor="#b2df8a"><b>B2B</b></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="text-center" height="50">
+						<td><b>Evening</b></td>
+						<td bgcolor="#33a02c"><b>Ice Breaker</b></td>
+						<td bgcolor="darkorange"><b> Gala</b></td>
+						<td></td>
 					</tr>
 				</table>
 			</div>
 		</section>
-		<!-- Hotel Section-->
-		<section class="page-section bg-primary text-blue mb-0" id="hotel">
+		<!-- accomodation Section-->
+		<section
+			class="page-section bg-primary text-secondary mb-0"
+			id="accomodation"
+		>
 			<div class="container">
 				<!-- Hotel Section Heading-->
 				<h2 class="page-section-heading text-center text-uppercase">
-					Hotel
+					Accomodations
 				</h2>
 				<!-- Icon Divider-->
 				<div class="divider-custom divider-light">
-					<div class="divider-custom-line-blue"></div>
+					<div class="divider-custom-line-secondary"></div>
 				</div>
 				<!-- About Section Content-->
 				<div class="row">
-					<div class="col-lg-4 ms-auto">
-						<p class="lead">
-							The host hotel for this year’s FOSS4G NA meeting is
-							the Hilton Baltimore Inner Harbor (401 West Pratt
-							Street, Baltimore, MD 21201), located in the vibrant
-							and walkable Inner Harbor district, a prime
-							business, historic, and cultural district in
-							downtown Baltimore, MD.
-						</p>
-						<p class="lead">
-							The negotiated group rate for our attendees is
-							$249.00 per room, per night plus taxes and fees
-							(complimentary basic wifi is included).
-							<strong>
-								The group rate will be available until Sunday,
-								October 1st, or until our block is sold out
-								(whichever comes first).
-							</strong>
-						</p>
-						<button class="lead">Reserve a room now</button>
+					<div class="para col-lg-4">
+						The host hotel for this year's FOSS4G NA meeting is the
+						Hilton Baltimore Inner Harbor (401 West Pratt Street,
+						Baltimore, MD 21201), located in the vibrant and
+						walkable Inner Harbor district, a prime business,
+						historic, and cultural district in downtown Baltimore,
+						MD.
+					</div>
+					<div class="para col-lg-4">
+						The negotiated group rate for our attendees is $249.00
+						per room, per night plus taxes and fees (complimentary
+						basic wifi is included).
+						<br />
+						<br />
+						<strong>
+							The group rate will be available until Sunday,
+							October 1st, or until our block is sold out
+							(whichever comes first).
+						</strong>
+					</div>
+					<div class="para col-lg-4">
+						<a href="#">
+							<button
+								type="button"
+								class="btn btn-primary btn-lg my-3"
+							>
+								Reserve a room now!
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Registration Section-->
-		<section class="page-section text-blue mb-0" id="registration">
+		<section class="page-section text-secondary mb-0" id="registration">
 			<div class="container">
 				<!-- Registration Section Heading-->
 				<h2 class="page-section-heading text-center text-uppercase">
@@ -240,59 +301,63 @@
 				</h2>
 				<!-- Icon Divider-->
 				<div class="divider-custom divider-light">
-					<div class="divider-custom-line-blue"></div>
+					<div class="divider-custom-line-secondary"></div>
 				</div>
 				<!-- About Section Content-->
 				<div class="row">
-					<div class="col-lg-4 ms-auto">
-						<p class="lead">
-							The host hotel for this year's FOSS4G NA meeting is
-							the Hilton Baltimore Inner Harbor (401 West Pratt
-							Street, Baltimore, MD 21201), located in the vibrant
-							and walkable Inner Harbor district, a prime
-							business, historic, and cultural district in
-							downtown Baltimore, MD.
-						</p>
-						<table border="2" cellspacing="0" align="center">
-							<tr>
-								<td align="center" height="50" width="300"></td>
-								<td align="center" height="50" width="200">
+					<div class="para col-lg-4 mb-3">
+						The host hotel for this year's FOSS4G NA meeting is the
+						Hilton Baltimore Inner Harbor (401 West Pratt Street,
+						Baltimore, MD 21201), located in the vibrant and
+						walkable Inner Harbor district, a prime business,
+						historic, and cultural district in downtown Baltimore,
+						MD.
+					</div>
+					<div class="para col-lg-8">
+						<table class="para">
+							<tr class="text-center" height="50">
+								<td width="350"></td>
+								<td width="200">
 									<b>Early Rate</b><br />
 									<i>by 9/8</i>
 								</td>
-								<td align="center" height="50" width="200">
+								<td width="200">
 									<b>Regular Rate</b><br />
 									<i>after 9/8</i>
 								</td>
 							</tr>
-							<tr>
-								<td align="center" height="50">
+							<!-- Full Conference Registration -->
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
 									Full Conference Registration
 								</td>
-								<td align="center" height="50"></td>
-								<td align="center" height="50"></td>
+								<td class="text-center">$ TBA</td>
+								<td class="text-center">$ TBA</td>
 							</tr>
-							<tr style="border-top: 1px black solid">
-								<td align="center" height="50">
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
 									Student Full Conference Registration
 								</td>
-								<td align="center" height="50"></td>
-								<td align="center" height="50"></td>
+								<td class="text-center">$ TBA</td>
+								<td class="text-center">$ TBA</td>
 							</tr>
-							<tr style="border-top: 1px black solid">
-								<td align="center" height="50">
-									One-Day Registration (Tues or Wed)
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
+									One-Day Registration
+									<br />
+									(Tues or Wed)
 								</td>
-								<td align="center" height="50"></td>
-								<td align="center" height="50"></td>
+								<td class="text-center">$ TBA</td>
+								<td class="text-center">$ TBA</td>
 							</tr>
-							<tr style="border-top: 1px black solid">
-								<td align="center" height="50">
-									Workshop / Pre-Conference Day (Monday, Oct.
-									23)
+							<tr height="50">
+								<td class="p-2">
+									Workshop / Pre-Conference Day
+									<br />
+									(Monday, Oct. 23)
 								</td>
-								<td align="center" height="50"></td>
-								<td align="center" height="50"></td>
+								<td class="text-center">$ TBA</td>
+								<td class="text-center">$ TBA</td>
 							</tr>
 						</table>
 					</div>

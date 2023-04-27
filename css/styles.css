@@ -2981,20 +2981,20 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-	--bs-btn-color: #fff;
-	--bs-btn-bg: #1abc9c;
-	--bs-btn-border-color: #1abc9c;
+	--bs-btn-color: var(--bs-primary);
+	--bs-btn-bg: var(--bs-secondary);
+	--bs-btn-border-color: var(--bs-secondary);
 	--bs-btn-hover-color: #fff;
-	--bs-btn-hover-bg: #16a085;
-	--bs-btn-hover-border-color: #15967d;
+	--bs-btn-hover-bg: var(--bs-secondary);
+	--bs-btn-hover-border-color: var(--bs-secondary);
 	--bs-btn-focus-shadow-rgb: 60, 198, 171;
 	--bs-btn-active-color: #fff;
-	--bs-btn-active-bg: #15967d;
-	--bs-btn-active-border-color: #148d75;
+	--bs-btn-active-bg: var(--bs-secondary);
+	--bs-btn-active-border-color: var(--bs-secondary);
 	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 	--bs-btn-disabled-color: #fff;
-	--bs-btn-disabled-bg: #1abc9c;
-	--bs-btn-disabled-border-color: #1abc9c;
+	--bs-btn-disabled-bg: var(--bs-secondary);
+	--bs-btn-disabled-border-color: var(--bs-secondary);
 }
 
 .btn-secondary {
