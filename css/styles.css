@@ -221,6 +221,11 @@ ul {
 	padding-left: 2rem;
 }
 
+.type-none {
+	list-style-type: none;
+	padding-left: 0;
+}
+
 ol,
 ul,
 dl {
@@ -11258,7 +11263,15 @@ html {
 	border-radius: 1rem;
 	border-color: #ea2030;
 }
-.divider-custom .divider-custom-line-blue {
+.divider-custom .divider-custom-line-white {
+	width: 100%;
+	max-width: 20rem;
+	height: 0.5rem;
+	background-color: white;
+	border-radius: 1rem;
+	border-color: white;
+}
+.divider-custom .divider-custom-line-secondary {
 	width: 100%;
 	max-width: 20rem;
 	height: 0.25rem;
