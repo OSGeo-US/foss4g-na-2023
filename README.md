@@ -1,18 +1,22 @@
 # FOSS4G NA 2023 Website
 
-- test
+-   test
 
 ```mermaid
 classDiagram
     Home -- About
-    Home -- Registration
+    Home -- CallForPresentations
     Home -- Accomodations
     Home -- Program
     Home -- Sponsorship
     Home : - Welcome
-    Home : - Description
-    Home : - RFP
+    Home : - Sponsors
 
+    About : + Schedule Overview
+    About : * Accomodations
+    About : - COC
+
+    CallForPresentations : - dd
 
     Accomodations : - Hotel
     Accomodations : - Room
@@ -21,9 +25,6 @@ classDiagram
     Transportation : - Type
     Transportation : - Description
 
-    About : - Schedule Overview
-    About : - Team
-    About : - COC
 
     Program *-- Session
     Program : - Detailed Schedule
@@ -36,5 +37,5 @@ classDiagram
     Presenter : - Name
     Presenter : - Title
 
-    Registration : - Cost
+
 ```
