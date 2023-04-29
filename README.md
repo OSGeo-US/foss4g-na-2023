@@ -1,30 +1,30 @@
 # FOSS4G NA 2023 Website
 
--   test
-
 ```mermaid
 classDiagram
     Home -- About
     Home -- CallForPresentations
-    Home -- Accomodations
     Home -- Program
     Home -- Sponsorship
     Home : - Welcome
     Home : - Sponsors
 
-    About : + Schedule Overview
-    About : * Accomodations
-    About : - COC
+    About : * CODE OF CONDUCT
+    About : * SCHEDULE OVERVIEW
+    About : * ACCOMODATIONS
+    About : * REGISTRATION
 
-    CallForPresentations : - dd
+    CallForPresentations : * DESCRIPTION
+    CallForPresentations : * WHAT TO CONTRIBUTE
+    CallForPresentations : * PRE-CONFERENCE WORKSHOPS
+    CallForPresentations : * 30-MINUTE PODIUM PRESENTATIONS
+    CallForPresentations : * HOW TO SUBMIT A PROPOSAL
+    CallForPresentations : * REVIEW PROCESS AND NOTIFICATIONS
+    CallForPresentations : * QUESTIONS
 
-    Accomodations : - Hotel
-    Accomodations : - Room
-    Accomodations *-- Transportation
-
-    Transportation : - Type
-    Transportation : - Description
-
+    Sponsorship : - Description
+    Sponsorship : - link to sponsorship pdf
+    Sponsorship : - button to sponsorship registration
 
     Program *-- Session
     Program : - Detailed Schedule
