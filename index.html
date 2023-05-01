@@ -17,30 +17,18 @@
 			crossorigin="anonymous"
 		></script>
 		<!-- Google tag (gtag.js) -->
-		<script type="text/javascript">
-			var script = document.createElement("script");
-			if (window.location.host == "foss4gna.org") {
-				script.src =
-					"https://www.googletagmanager.com/gtag/js?id=G-JJLVP1J4JV";
-				script.async = true;
-				document.body.appendChild(script);
-			} else {
-				console.log(
-					`you are not on foss4g.na: ${window.location.host}`
-				);
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-JJLVP1J4JV"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
 			}
-		</script>
-		<script type="text/javascript">
-			var script = document.createElement("script");
-			if (window.location.host == "foss4gna.org") {
-				window.dataLayer = window.dataLayer || [];
-				function gtag() {
-					dataLayer.push(arguments);
-				}
-				gtag("js", new Date());
+			gtag("js", new Date());
 
-				gtag("config", "G-JJLVP1J4JV");
-			}
+			gtag("config", "G-JJLVP1J4JV");
 		</script>
 		<!-- Google fonts-->
 		<link
