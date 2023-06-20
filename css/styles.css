@@ -11274,6 +11274,14 @@ html {
 	border-radius: 1rem;
 	border-color: white;
 }
+.divider-custom .divider-custom-line-primary {
+	width: 100%;
+	max-width: 20rem;
+	height: 0.25rem;
+	background-color: var(--bs-primary);
+	border-radius: 1rem;
+	border-color: var(--bs-primary);
+}
 .divider-custom .divider-custom-line-secondary {
 	width: 100%;
 	max-width: 20rem;
