@@ -11474,6 +11474,14 @@ html {
 #information {
 	background-color: #212529;
 	background-image: url(../assets/img/BALTIMORE_OPAQUE.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
+}
+
+#keynoteSpeakers {
+	width: 100%;
+	padding: 2rem;
+}
+
+#mainLogo {
+	width: 100%;
 }
