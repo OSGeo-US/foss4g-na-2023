@@ -1,522 +1,643 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="FOSS4G NA Baltimore 2023 Website" />
+		<meta name="author" content="OSGeo US" />
+		<title>FOSS4G NA Baltimore 2023</title>
+		<!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+		<!-- Font Awesome icons (free version)-->
+		<script
+			src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-JJLVP1J4JV"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="FOSS4G NA Baltimore 2023 Website" />
-	<meta name="author" content="OSGeo US" />
-	<title>FOSS4G NA Baltimore 2023</title>
-	<!-- Favicon-->
-	<link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-	<!-- Font Awesome icons (free version)-->
-	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJLVP1J4JV"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
+			gtag("config", "G-JJLVP1J4JV");
+		</script>
+		<!-- Google fonts-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+			rel="stylesheet"
+			type="text/css"
+		/>
 
-		gtag("config", "G-JJLVP1J4JV");
-	</script>
-	<!-- Google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+			rel="stylesheet "
+			type="text/css"
+		/>
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet "
-		type="text/css" />
-	<!-- Core theme CSS (includes Bootstrap)-->
-	<link href="css/styles.css" rel="stylesheet" />
-</head>
-
-<body id="page-top">
-	<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">FOSS4G NA Baltimore</a>
-			<button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation">
-				Menu
-				<i class="fas fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item py-2">
-						<a href="https://web.cvent.com/event/0049a110-05a7-4447-b8c8-c13812fa7f3d/summary"
-							class="nav-link">
-							Register
-						</a>
-					</li>
-					<li class="nav-item py-2 dropdown">
-						<a href="schedule.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-							Program
-						</a>
-						<div class="dropdown-menu dropdown-menu-start">
-							<a href="schedule.html#schedule" class="dropdown-item">
-								Schedule
+	<body id="page-top">
+		<!-- Navigation-->
+		<nav
+			class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+			id="mainNav"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html"
+					>FOSS4G NA Baltimore</a
+				>
+				<button
+					class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarResponsive"
+					aria-controls="navbarResponsive"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					Menu
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item py-2">
+							<a
+								href="https://web.cvent.com/event/0049a110-05a7-4447-b8c8-c13812fa7f3d/summary"
+								class="nav-link"
+							>
+								Register
 							</a>
-							<a href="schedule.html#speakers" class="dropdown-item">
-								Speakers
+						</li>
+						<li class="nav-item py-2 dropdown">
+							<a
+								href="schedule.html"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
+							>
+								Program
 							</a>
-						</div>
-
-					</li>
-					<li class="nav-item py-2 dropdown">
-						<a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-							About
-						</a>
-						<div class="dropdown-menu dropdown-menu-start">
-							<a href="about.html#coc" class="dropdown-item">
-								Code of Conduct
+							<div class="dropdown-menu dropdown-menu-start">
+								<a
+									href="schedule.html#schedule"
+									class="dropdown-item"
+								>
+									Schedule
+								</a>
+								<a
+									href="schedule.html#speakers"
+									class="dropdown-item"
+								>
+									Speakers
+								</a>
+							</div>
+						</li>
+						<li class="nav-item py-2 dropdown">
+							<a
+								href="about.html"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
+							>
+								About
 							</a>
-							<a href="about.html#accomodation" class="dropdown-item">
-								Accomodations
+							<div class="dropdown-menu dropdown-menu-start">
+								<a href="about.html#coc" class="dropdown-item">
+									Code of Conduct
+								</a>
+								<a
+									href="about.html#accomodation"
+									class="dropdown-item"
+								>
+									Accomodations
+								</a>
+								<a
+									href="about.html#travel"
+									class="dropdown-item"
+								>
+									Travel
+								</a>
+								<a href="about.html#gala" class="dropdown-item">
+									Gala
+								</a>
+								<a
+									href="about.html#registration"
+									class="dropdown-item"
+								>
+									Registration
+								</a>
+								<a
+									href="about.html#sponsorship"
+									class="dropdown-item"
+								>
+									Sponsorship
+								</a>
+								<a
+									href="about.html#volunteer"
+									class="dropdown-item"
+								>
+									Volunteer
+								</a>
+							</div>
+						</li>
+						<li class="nav-item py-2 dropdown">
+							<a
+								href="#"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
+							>
+								Call for presentations
 							</a>
-							<a href="about.html#travel" class="dropdown-item">
-								Travel
-							</a>
-							<a href="about.html#gala" class="dropdown-item">
-								Gala
-							</a>
-							<a href="about.html#registration" class="dropdown-item">
-								Registration
-							</a>
-							<a href="about.html#sponsorship" class="dropdown-item">
-								Sponsorship
-							</a>
-							<a href="about.html#volunteer" class="dropdown-item">
-								Volunteer
-							</a>
-						</div>
-					</li>
-					<li class="nav-item py-2 dropdown">
-						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-							Call for presentations
-						</a>
-						<div class="dropdown-menu dropdown-menu-end">
-							<a href="cfp.html#description" class="dropdown-item">
-								Description
-							</a>
-							<a href="cfp.html#contribute" class="dropdown-item">
-								What to contribute
-							</a>
-							<a href="cfp.html#workshop" class="dropdown-item">
-								Workshops
-							</a>
-							<a href="cfp.html#presentations" class="dropdown-item">
-								Presentations
-							</a>
-							<a href="cfp.html#submission" class="dropdown-item">
-								Submission Details
-							</a>
-							<a href="cfp.html#review" class="dropdown-item">
-								Review Process
-							</a>
-							<a href="cfp.html#question" class="dropdown-item">
-								Questions
-							</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- Masthead-->
-	<header class="masthead bg-primary text-white text-center">
-		<div class="container d-flex align-items-center flex-column">
-			<!-- Masthead Avatar Image-->
-			<div class="row">
-				<img class="col-lg-6" src="assets/img/FOSS4GNA_LOGO.svg" alt="FOSS4G NA Baltimore Logo" />
-				<div class="col-lg-6 p-4 bg-secondary">
-					<!-- About Page Heading-->
-					<h2 class="text-center text-uppercase text-white">
-						About
-					</h2>
-					<ul class="type-none para">
-						<li><a href="#coc">Code of conduct</a></li>
-						<li><a href="#accomodation">Accomodations</a></li>
-						<li><a href="#travel">Travel</a></li>
-						<li><a href="#gala">Gala</a></li>
-						<li><a href="#registration">Registration</a></li>
-						<li><a href="#sponsorship">Sponsorship</a></li>
-						<li><a href="#volunteer">Volunteer</a></li>
-						<li></li>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a
+									href="cfp.html#description"
+									class="dropdown-item"
+								>
+									Description
+								</a>
+								<a
+									href="cfp.html#contribute"
+									class="dropdown-item"
+								>
+									What to contribute
+								</a>
+								<a
+									href="cfp.html#workshop"
+									class="dropdown-item"
+								>
+									Workshops
+								</a>
+								<a
+									href="cfp.html#presentations"
+									class="dropdown-item"
+								>
+									Presentations
+								</a>
+								<a
+									href="cfp.html#submission"
+									class="dropdown-item"
+								>
+									Submission Details
+								</a>
+								<a href="cfp.html#review" class="dropdown-item">
+									Review Process
+								</a>
+								<a
+									href="cfp.html#question"
+									class="dropdown-item"
+								>
+									Questions
+								</a>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
-		</div>
-	</header>
-	<!-- COC Section-->
-	<section class="page-section text-secondary mb-0" id="coc">
-		<div class="container">
-			<!-- Registration Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Code of Conduct
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- COC Section Content-->
-			<div class="row">
-				<div class="para col-lg-4 my-3">
-					Participants at FOSS4G-NA Baltimore 2023 conference are
-					expected to act respectfully toward others in accordance
-					with our
-					<a href="assets\pdf\foss4gna-2023-COC.pdf">FOSS4G NA Code of Conduct</a>. <br /><br />
-					This code of conduct will be expanded upon with more
-					details once the full proghram is available.
-				</div>
-				<div class="para col-lg-4 my-3">
-					FOSS4G is dedicated to providing a harassment-free
-					conference experience for everyone, regardless of
-					gender, gender identity and expression, age, sexual
-					orientation, disability, physical appearance, body size,
-					race, or religion, or technology choices. We do not
-					tolerate harassment of conference participants in any
-					form. All communication should be appropriate for a
-					professional audience including people of many different
-					backgrounds.
-				</div>
-				<div class="para col-lg-4 my-3">
-					Sexual language and imagery is not appropriate for any
-					conference venue, including talks, workshops, social
-					media, or parties. Be kind to others. Do not insult or
-					put down other attendees. Behave professionally.
-					Remember that harassment and sexist, racist, or
-					exclusionary jokes are not appropriate for FOSS4G.
-					Attendees violating these rules may be asked to leave
-					the conference without a refund at the sole discretion
-					of the conference organizers. Thank you for helping make
-					this a welcoming, friendly event for all.
+		</nav>
+		<!-- Masthead-->
+		<header class="masthead bg-primary text-white text-center">
+			<div class="container d-flex align-items-center flex-column">
+				<!-- Masthead Avatar Image-->
+				<div class="row">
+					<img
+						class="col-lg-6"
+						src="assets/img/FOSS4GNA_LOGO.svg"
+						alt="FOSS4G NA Baltimore Logo"
+					/>
+					<div class="col-lg-6 p-4 bg-secondary">
+						<!-- About Page Heading-->
+						<h2 class="text-center text-uppercase text-white">
+							About
+						</h2>
+						<ul class="type-none para">
+							<li><a href="#coc">Code of conduct</a></li>
+							<li><a href="#accomodation">Accomodations</a></li>
+							<li><a href="#travel">Travel</a></li>
+							<li><a href="#gala">Gala</a></li>
+							<li><a href="#registration">Registration</a></li>
+							<li><a href="#sponsorship">Sponsorship</a></li>
+							<li><a href="#volunteer">Volunteer</a></li>
+							<li></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Accomodation Section-->
-	<section class="page-section bg-primary text-secondary mb-0" id="accomodation">
-		<div class="container">
-			<!-- Hotel Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Accomodations
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- Accomodation Section Content-->
-			<div class="row">
-				<div class="para col-lg-4">
-					The host hotel for this year's FOSS4G NA meeting is the
-					Hilton Baltimore Inner Harbor (401 West Pratt Street,
-					Baltimore, MD 21201), located in the vibrant and
-					walkable Inner Harbor district, a prime business,
-					historic, and cultural district in downtown Baltimore,
-					MD.
+		</header>
+		<!-- COC Section-->
+		<section class="page-section text-secondary mb-0" id="coc">
+			<div class="container">
+				<!-- Registration Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Code of Conduct
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
 				</div>
-				<div class="para col-lg-4">
-					The negotiated group rate for our attendees is $249.00
-					per room, per night plus taxes and fees (complimentary
-					basic wifi is included).
-					<br />
-					<br />
-					<strong>
-						The group rate will be available until Sunday,
-						October 1st, or until our block is sold out
-						(whichever comes first).
-					</strong>
-				</div>
-				<div class="para col-lg-4">
-					<a href="https://book.passkey.com/event/50547341/owner/61726/landing">
-						<button type="button" class="btn btn-secondary btn-lg my-3">
-							Reserve a room now!
-						</button>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Travel Section-->
-	<section class="page-section text-secondary mb-0" id="travel">
-		<div class="container">
-			<!-- Travel Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Travel
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- Travel Section Content-->
-			<div class="row">
-				<div class="para col-lg-4">
-					<p>
-						Conference workshops and educational sessions will be held at the Hilton Baltimore Inner Harbor
-						Hotel, 401 W Pratt St, Baltimore, MD 21201.
-					</p>
-					<p style="color:red;">
-						*NOTE: There is a Baltimore Ravens home game taking place at 1:00pm on Sunday, October 22nd that
-						may
-						cause significant traffic in and around the city. You may wish to adjust your travel plans
-						accordingly.
-					</p>
-				</div>
-				<div class="para col-lg-4">
-					<p>
-						<b>By Air:</b><br />
-						Baltimore/Washington International (BWI): 10 miles from hotel<br />
-						Washington National Airport (DCA): 41 miles from hotel<br />
-						Washington Dulles International Airport (IAD): 70 miles from hotel
-					</p>
-					<p>
-						<b>By Car:</b><br />
-						Hotel Parking: $36 per day (self parking)
-					</p>
-				</div>
-				<div class="para col-lg-4">
-					<p>
-						<b>Mass Transit:</b><br />
-						<a href="https://www.mta.maryland.gov/schedule/lightrail">Baltimore Light RailLink</a>: Camden
-						Yard Station (available from BWI)<br />
-						<a href="https://www.amtrak.com/stations/bal">Amtrak</a>: Baltimore Penn Station
-					</p>
+				<!-- COC Section Content-->
+				<div class="row">
+					<div class="para col-lg-4 my-3">
+						Participants at FOSS4G-NA Baltimore 2023 conference are
+						expected to act respectfully toward others in accordance
+						with our
+						<a href="assets\pdf\foss4gna-2023-COC.pdf"
+							>FOSS4G NA Code of Conduct</a
+						>. <br /><br />
+						This code of conduct will be expanded upon with more
+						details once the full proghram is available.
+					</div>
+					<div class="para col-lg-4 my-3">
+						FOSS4G is dedicated to providing a harassment-free
+						conference experience for everyone, regardless of
+						gender, gender identity and expression, age, sexual
+						orientation, disability, physical appearance, body size,
+						race, or religion, or technology choices. We do not
+						tolerate harassment of conference participants in any
+						form. All communication should be appropriate for a
+						professional audience including people of many different
+						backgrounds.
+					</div>
+					<div class="para col-lg-4 my-3">
+						Sexual language and imagery is not appropriate for any
+						conference venue, including talks, workshops, social
+						media, or parties. Be kind to others. Do not insult or
+						put down other attendees. Behave professionally.
+						Remember that harassment and sexist, racist, or
+						exclusionary jokes are not appropriate for FOSS4G.
+						Attendees violating these rules may be asked to leave
+						the conference without a refund at the sole discretion
+						of the conference organizers. Thank you for helping make
+						this a welcoming, friendly event for all.
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Gala Section-->
-	<section class="page-section bg-primary text-secondary mb-0" id="gala">
-		<div class="container">
-			<!-- Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Gala
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- Gala Section Content-->
-			<div class="row">
-				<img class="col-lg-4 p-3" src="assets\img\maryland-science-center-logo.png"
-					alt="Maryland Science Center Logo">
-				<div class="para col-lg-4">
-					“A Night at the Science Center”
-					<br />
-					Gala Event (purchased ticket required)<br /><br />
-					Bring your inner child and join us for a night of fun at the Maryland Science Center, located a
-					short walk from the hotel right on the harbor.
+		</section>
+		<!-- Accomodation Section-->
+		<section
+			class="page-section bg-primary text-secondary mb-0"
+			id="accomodation"
+		>
+			<div class="container">
+				<!-- Hotel Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Accomodations
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
 				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Registration Section-->
-	<section class="page-section text-secondary mb-0" id="registration">
-		<div class="container">
-			<!-- Registration Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Registration
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- Registration Section Content-->
-			<div class="row">
-				<div class="para col-lg-4 mb-3">
-					<p>The host hotel for this year's FOSS4G NA meeting is the
+				<!-- Accomodation Section Content-->
+				<div class="row">
+					<div class="para col-lg-4">
+						The host hotel for this year's FOSS4G NA meeting is the
 						Hilton Baltimore Inner Harbor (401 West Pratt Street,
 						Baltimore, MD 21201), located in the vibrant and
 						walkable Inner Harbor district, a prime business,
 						historic, and cultural district in downtown Baltimore,
-						MD.</p>
-					<p> <b>Group Discount</b><br />
-						A group discount is now available for organizations sending 15 or more attendees. Do you
-						qualify?
-						Contact us at <a href="mailto:info@delaneymeetingevent.com"> info@delaneymeetingevent.com </a>
-						to get
-						registration instructions.
-					</p>
-				</div>
-				<div class="para col-lg-8 bg-white p-2">
-					<table class="para mx-auto">
-						<tr class="text-center" height="50" valign="TOP">
-							<td width="350"></td>
-							<td width="200">
-								<b>Early Bird</b><br />
-								(<i>by Monday 9/11<br />
-									11:59pm ET</i>)
-							</td>
-							<td width="200"><b>Price</b><br /></td>
-						</tr>
-						<!-- Full Conference Registration -->
-						<tr class="border-bottom" height="50">
-							<td class="p-2">
-								Full Conference Registration
-							</td>
-							<td class="text-center">$ 450</td>
-							<td class="text-center">$ 550</td>
-						</tr>
-						<tr class="border-bottom" height="50">
-							<td class="p-2">
-								One-Day Registration
-								<br />
-								(Tues or Wed)
-							</td>
-							<td class="text-center">$ 225</td>
-							<td class="text-center">$ 275</td>
-						</tr>
-						<tr class="border-bottom" height="50">
-							<td class="p-2">
-								Student Full Conference Registration
-							</td>
-							<td class="text-center"></td>
-							<td class="text-center">$ 400</td>
-						</tr>
-						<tr height="50">
-							<td class="p-2">Workshop (Monday)</td>
-							<td class="text-center"></td>
-							<td class="text-center">$ 150</td>
-						</tr>
-						<tr height="50">
-							<td class="p-2">B2B (Monday)</td>
-							<td class="text-center"></td>
-							<td class="text-center">$ 75</td>
-						</tr>
-						<tr height="50">
-							<td class="p-2">Gala (Tuesday)</td>
-							<td class="text-center"></td>
-							<td class="text-center">$ 80</td>
-						</tr>
-					</table>
+						MD.
+					</div>
+					<div class="para col-lg-4">
+						To book a room with the hotel you need to
+						<a
+							href="https://www.hilton.com/en/hotels/bwicchh-hilton-baltimore/"
+						>
+							contact them directly
+						</a>
+						. Our conference room block sales have ended.
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Sponsorship Section-->
-	<section class="page-section bg-primary text-secondary mb-0" id="sponsorship">
-		<div class="container">
-			<!-- Sponsorship Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Sponsorship
-			</h2>
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
-			</div>
-			<!-- Sponsorship Section Content-->
-			<div class="row mb-3">
-				<div class="col-lg-2"></div>
-				<div class="para col-lg-4 text-center">
-					<a href="https://bit.ly/3Illvr6" target="_blank">
-						<button type="button" class="btn btn-secondary btn-lg my-3">
-							Sponsor Prospectus
-						</button>
-					</a>
+		</section>
+		<!-- Travel Section-->
+		<section class="page-section text-secondary mb-0" id="travel">
+			<div class="container">
+				<!-- Travel Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Travel
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
 				</div>
-				<div class="para col-lg-4 text-center">
-					<a href="https://bit.ly/3MjMnu0" target="_blank">
-						<button type="button" class="btn btn-secondary btn-lg my-3">
-							Sponsor Today!!
-						</button>
-					</a>
+				<!-- Travel Section Content-->
+				<div class="row">
+					<div class="para col-lg-4">
+						<p>
+							Conference workshops and educational sessions will
+							be held at the Hilton Baltimore Inner Harbor Hotel,
+							401 W Pratt St, Baltimore, MD 21201.
+						</p>
+						<p style="color: red">
+							*NOTE: There is a Baltimore Ravens home game taking
+							place at 1:00pm on Sunday, October 22nd that may
+							cause significant traffic in and around the city.
+							You may wish to adjust your travel plans
+							accordingly.
+						</p>
+					</div>
+					<div class="para col-lg-4">
+						<p>
+							<b>By Air:</b><br />
+							Baltimore/Washington International (BWI): 10 miles
+							from hotel<br />
+							Washington National Airport (DCA): 41 miles from
+							hotel<br />
+							Washington Dulles International Airport (IAD): 70
+							miles from hotel
+						</p>
+						<p>
+							<b>By Car:</b><br />
+							Hotel Parking: $36 per day (self parking)
+						</p>
+					</div>
+					<div class="para col-lg-4">
+						<p>
+							<b>Mass Transit:</b><br />
+							<a
+								href="https://www.mta.maryland.gov/schedule/lightrail"
+								>Baltimore Light RailLink</a
+							>: Camden Yard Station (available from BWI)<br />
+							<a href="https://www.amtrak.com/stations/bal"
+								>Amtrak</a
+							>: Baltimore Penn Station
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-2"></div>
-				<div class="para col-lg-8">
-					Sponsors of FOSS4G NORTH AMERICA have a unique
-					opportunity to be an integral part of the entire event.
-					The Global FOSS4G movement delivers camaraderie and
-					networking opportunities that lead to synergies in the
-					community as well as opportunities to give and receive
-					help on specific technical issues or to generate
-					business opportunities
+		</section>
+		<!-- Gala Section-->
+		<section class="page-section bg-primary text-secondary mb-0" id="gala">
+			<div class="container">
+				<!-- Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Gala
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
+				</div>
+				<!-- Gala Section Content-->
+				<div class="row">
+					<img
+						class="col-lg-4 p-3"
+						src="assets\img\maryland-science-center-logo.png"
+						alt="Maryland Science Center Logo"
+					/>
+					<div class="para col-lg-4">
+						“A Night at the Science Center”
+						<br />
+						Gala Event (purchased ticket required)<br /><br />
+						Bring your inner child and join us for a night of fun at
+						the Maryland Science Center, located a short walk from
+						the hotel right on the harbor.
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Registration Section-->
-	<section class="page-section text-secondary mb-0" id="volunteer">
-		<div class="container">
-			<!-- Registration Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase">
-				Volunteering
-			</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line-secondary"></div>
+		</section>
+		<!-- Registration Section-->
+		<section class="page-section text-secondary mb-0" id="registration">
+			<div class="container">
+				<!-- Registration Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Registration
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
+				</div>
+				<!-- Registration Section Content-->
+				<div class="row">
+					<div class="para col-lg-4 mb-3">
+						<p>
+							The host hotel for this year's FOSS4G NA meeting is
+							the Hilton Baltimore Inner Harbor (401 West Pratt
+							Street, Baltimore, MD 21201), located in the vibrant
+							and walkable Inner Harbor district, a prime
+							business, historic, and cultural district in
+							downtown Baltimore, MD.
+						</p>
+						<p>
+							<b>Group Discount</b><br />
+							A group discount is now available for organizations
+							sending 15 or more attendees. Do you qualify?
+							Contact us at
+							<a href="mailto:info@delaneymeetingevent.com">
+								info@delaneymeetingevent.com
+							</a>
+							to get registration instructions.
+						</p>
+					</div>
+					<div class="para col-lg-8 bg-white p-2">
+						<table class="para mx-auto">
+							<tr class="text-center" height="50" valign="TOP">
+								<td width="350"></td>
+								<td width="200">
+									<b>Early Bird</b><br />
+									(<i
+										>by Monday 9/11<br />
+										11:59pm ET</i
+									>)
+								</td>
+								<td width="200"><b>Price</b><br /></td>
+							</tr>
+							<!-- Full Conference Registration -->
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
+									Full Conference Registration
+								</td>
+								<td class="text-center">$ 450</td>
+								<td class="text-center">$ 550</td>
+							</tr>
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
+									One-Day Registration
+									<br />
+									(Tues or Wed)
+								</td>
+								<td class="text-center">$ 225</td>
+								<td class="text-center">$ 275</td>
+							</tr>
+							<tr class="border-bottom" height="50">
+								<td class="p-2">
+									Student Full Conference Registration
+								</td>
+								<td class="text-center"></td>
+								<td class="text-center">$ 400</td>
+							</tr>
+							<tr height="50">
+								<td class="p-2">Workshop (Monday)</td>
+								<td class="text-center"></td>
+								<td class="text-center">$ 150</td>
+							</tr>
+							<tr height="50">
+								<td class="p-2">B2B (Monday)</td>
+								<td class="text-center"></td>
+								<td class="text-center">$ 75</td>
+							</tr>
+							<tr height="50">
+								<td class="p-2">Gala (Tuesday)</td>
+								<td class="text-center"></td>
+								<td class="text-center">$ 80</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 			</div>
-			<!-- About Section Content-->
+		</section>
+		<!-- Sponsorship Section-->
+		<section
+			class="page-section bg-primary text-secondary mb-0"
+			id="sponsorship"
+		>
+			<div class="container">
+				<!-- Sponsorship Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Sponsorship
+				</h2>
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
+				</div>
+				<!-- Sponsorship Section Content-->
+				<div class="row mb-3">
+					<div class="col-lg-2"></div>
+					<div class="para col-lg-4 text-center">
+						<a href="https://bit.ly/3Illvr6" target="_blank">
+							<button
+								type="button"
+								class="btn btn-secondary btn-lg my-3"
+							>
+								Sponsor Prospectus
+							</button>
+						</a>
+					</div>
+					<div class="para col-lg-4 text-center">
+						<a href="https://bit.ly/3MjMnu0" target="_blank">
+							<button
+								type="button"
+								class="btn btn-secondary btn-lg my-3"
+							>
+								Sponsor Today!!
+							</button>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="para col-lg-8">
+						Sponsors of FOSS4G NORTH AMERICA have a unique
+						opportunity to be an integral part of the entire event.
+						The Global FOSS4G movement delivers camaraderie and
+						networking opportunities that lead to synergies in the
+						community as well as opportunities to give and receive
+						help on specific technical issues or to generate
+						business opportunities
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Registration Section-->
+		<section class="page-section text-secondary mb-0" id="volunteer">
+			<div class="container">
+				<!-- Registration Section Heading-->
+				<h2 class="page-section-heading text-center text-uppercase">
+					Volunteering
+				</h2>
+				<!-- Icon Divider-->
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line-secondary"></div>
+				</div>
+				<!-- About Section Content-->
 
-			<div class="row">
-				<div class="para col-lg-4 text-center">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdd1pjgNxby0iJRa1a6N95u8Y5dKvaNA4QYGZlquvaQQpOcpw/viewform"
-						target="_blank">
-						<button type="button" class="btn btn-secondary btn-lg my-3">
-							Sign Up to Volunteer
-						</button>
-					</a>
-				</div>
-				<div class="para col-lg-4 mb-3">
-					Do you love open source and are always looking to
-					contribute to the community? Do want to learn more about
-					open source solutions to geospatial challenges? Are you
-					planning to renew or apply for your Geographic
-					Information Systems Professional (GISP) certification
-					and need to show contributions to the profession? Or,
-					are you just looking for an exhilariating atmosphere to
-					meet people filled with contagious excitement for
-					helping others succeed?
-				</div>
-				<div class="para col-lg-4 mb-3">
-					There are a ton of reasons for volunteering at FOSS4G
-					North America in Baltimore this year, but if you
-					answered yes to any of the above, you should really
-					consider signing up to volunteer for this amazing
-					opportunity! If you have questions related to
-					volunteering before deciding, drop us a line, and we can
-					discuss any details you have questions about.
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Footer-->
-	<footer class="footer text-center">
-		<div class="container">
-			<div class="row">
-				<!-- Footer Social Icons-->
-				<div class="col-lg-12 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Get Updates</h4>
-					<a class="btn btn-outline-light btn-social mx-1"
-						href="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac"><i
-							class="fab fa-fw fa-mailchimp"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/foss4gna"><i
-							class="fab fa-fw fa-twitter"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1" href="https://www.tiktok.com/@foss4gna"><i
-							class="fab fa-fw fa-tiktok"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1"
-						href="https://www.facebook.com/profile.php?id=100091575422696"><i class="fab fa-fw fa-facebook">
-						</i>
-					</a>
-					<a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/foss4gna/"><i
-							class="fab fa-fw fa-instagram"> </i>
-					</a>
+				<div class="row">
+					<div class="para col-lg-4 text-center">
+						<a
+							href="https://docs.google.com/forms/d/e/1FAIpQLSdd1pjgNxby0iJRa1a6N95u8Y5dKvaNA4QYGZlquvaQQpOcpw/viewform"
+							target="_blank"
+						>
+							<button
+								type="button"
+								class="btn btn-secondary btn-lg my-3"
+							>
+								Sign Up to Volunteer
+							</button>
+						</a>
+					</div>
+					<div class="para col-lg-4 mb-3">
+						Do you love open source and are always looking to
+						contribute to the community? Do want to learn more about
+						open source solutions to geospatial challenges? Are you
+						planning to renew or apply for your Geographic
+						Information Systems Professional (GISP) certification
+						and need to show contributions to the profession? Or,
+						are you just looking for an exhilariating atmosphere to
+						meet people filled with contagious excitement for
+						helping others succeed?
+					</div>
+					<div class="para col-lg-4 mb-3">
+						There are a ton of reasons for volunteering at FOSS4G
+						North America in Baltimore this year, but if you
+						answered yes to any of the above, you should really
+						consider signing up to volunteer for this amazing
+						opportunity! If you have questions related to
+						volunteering before deciding, drop us a line, and we can
+						discuss any details you have questions about.
+					</div>
 				</div>
 			</div>
+		</section>
+		<!-- Footer-->
+		<footer class="footer text-center">
+			<div class="container">
+				<div class="row">
+					<!-- Footer Social Icons-->
+					<div class="col-lg-12 mb-5 mb-lg-0">
+						<h4 class="text-uppercase mb-4">Get Updates</h4>
+						<a
+							class="btn btn-outline-light btn-social mx-1"
+							href="https://us19.list-manage.com/contact-form?u=8635900ee697ecbb8a595f92d&form_id=2a26281da80916604418c94616d3a1ac"
+							><i class="fab fa-fw fa-mailchimp"></i
+						></a>
+						<a
+							class="btn btn-outline-light btn-social mx-1"
+							href="https://twitter.com/foss4gna"
+							><i class="fab fa-fw fa-twitter"></i
+						></a>
+						<a
+							class="btn btn-outline-light btn-social mx-1"
+							href="https://www.tiktok.com/@foss4gna"
+							><i class="fab fa-fw fa-tiktok"></i
+						></a>
+						<a
+							class="btn btn-outline-light btn-social mx-1"
+							href="https://www.facebook.com/profile.php?id=100091575422696"
+							><i class="fab fa-fw fa-facebook"> </i>
+						</a>
+						<a
+							class="btn btn-outline-light btn-social mx-1"
+							href="https://www.instagram.com/foss4gna/"
+							><i class="fab fa-fw fa-instagram"> </i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Copyright Section-->
+		<div class="copyright py-4 text-center text-white">
+			<div class="container">
+				<small>Copyright &copy; OSGeo US 2023</small>
+			</div>
 		</div>
-	</footer>
-	<!-- Copyright Section-->
-	<div class="copyright py-4 text-center text-white">
-		<div class="container">
-			<small>Copyright &copy; OSGeo US 2023</small>
-		</div>
-	</div>
-	<!-- Bootstrap core JS-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-	<!-- Core theme JS-->
-	<script src="js/scripts.js"></script>
-</body>
-
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Core theme JS-->
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
